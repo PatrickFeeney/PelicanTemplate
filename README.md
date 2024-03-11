@@ -10,4 +10,11 @@ Blank template for a Pelican GitHub Pages site.
 1. Run `pelican-quickstart` and choose the following non-default answers: no to URL prefix, yes to GitHub Pages.
 This will default to a GitHub project page (`username.github.io/reponame/`), but Pelican quickstart will give you the option to make a user site (`username.github.io` without `/reponame/` after).
 1. Run `make html` to convert content to static site output.
+1. Run `make serve` to serve the site at http://localhost:8000 for local viewing.
 1. Run `make github` to push that content to GitHub and automatically update GitHub Pages.
+
+Optional themes:
+1. In repo directory run `mkdir submodules; cd submodules`.
+1. Run `git submodule add REPO_URL`, with most themes available at `https://github.com/getpelican/pelican-themes.git`.
+1. Follow the install instructions for whichever theme you want to use.
+pelican-bootstrap3 is used in this repo.

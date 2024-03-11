@@ -33,3 +33,9 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+# pelican-bootstrap3 config
+THEME = "submodules/pelican-themes/pelican-bootstrap3"
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGIN_PATHS = ['submodules/pelican-plugins']
+PLUGINS = ['i18n_subsites']
