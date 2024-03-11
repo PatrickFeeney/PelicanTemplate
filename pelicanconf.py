@@ -1,6 +1,6 @@
 AUTHOR = 'Patrick Feeney'
 SITENAME = 'PelicanTemplate'
-SITEURL = ""
+SITEURL = "https://patrickfeeney.github.io/PelicanTemplate"
 
 PATH = "content"
 
